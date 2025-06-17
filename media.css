@@ -47,3 +47,53 @@ button{
     filter: drop-shadow(2px 2px 4px black);
 }
 }
+
+@media(max-width:420px){   
+#caption{
+    text-align: center;
+    font-size: 50px;
+}
+#board {
+    padding-left: 8px;
+    padding-top: 12px;
+    top: 15%;
+    position: absolute; 
+    height: 330px;
+    width: 330px;
+    right: 10%;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.tile{
+    height: 32px;
+    width: 32px;
+    margin: 6px;
+}
+#scoreboard{
+    width: 170px;
+    top: 72%;
+    left:11%;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 4px black);
+
+}
+#name{
+    font-size: 23px;
+}
+
+p{
+    font-size: 18px;
+    filter: drop-shadow(2px 4px 4px black);
+}
+button{
+    text-align: center;
+    top: 72%;
+    right: 10%;
+    width: 130px;
+    height: 95px;
+    position: absolute;
+    padding-left: 40px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+}
