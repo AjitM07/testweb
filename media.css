@@ -1,4 +1,4 @@
-@media(max-width:376px){   
+@media(max-width:393px){   
 #caption{
     text-align: center;
     font-size: 50px;
@@ -10,7 +10,7 @@
     position: absolute; 
     height: 330px;
     width: 330px;
-    right: 6%;
+    right: 8%;
     filter: drop-shadow(2px 2px 4px black);
 }
 .tile{
@@ -21,7 +21,7 @@
 #scoreboard{
     width: 150px;
     top: 75%;
-    left:6%;
+    left:8%;
     position: absolute;
     padding: 10px;
     font-size: 20px;
@@ -39,7 +39,7 @@ p{
 button{
     text-align: center;
     top: 75%;
-    right: 6%;
+    right: 8%;
     width: 140px;
     height: 100px;
     position: absolute;
