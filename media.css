@@ -22,7 +22,7 @@
         filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
     }
     #name{
-        font-size: 25px;
+        font-size: 30px;
     }
     p{
         font-size: 20px;
@@ -31,7 +31,7 @@
         top: 80%;
         right: 6%;
         width: 130px;
-        height: 120px;
+        height: 130px;
         font-size: 25px;
         padding-left: 30px;
         filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
@@ -40,11 +40,42 @@
         width: 90%;
     }
     #popbutton{
-        margin-left: 25%;
+        margin-left: 27%;
         margin-top: 10px;
     }
 }
 
+
+@media (max-width:366px){
+    #board{
+        position: absolute;
+        top: 18%;
+        left: -63%;
+        width: 330px;
+        height: 330px;
+        filter: drop-shadow(2px 2px 4px black);
+    }
+    .tile{
+        height: 33px;
+        width: 33px;
+    }
+    #scoreboard{
+        left: 7%;
+        width: 180px;
+    }
+    #name{
+        font-size: 25px;
+    }
+    #button{
+        height: 125px;
+    }
+    .popup-content{
+        width: 90%;
+    }
+    #popbutton{
+        margin-left: 22%;
+    }
+}
 
 /* @media screen and (max-width:420px){
     #caption{
