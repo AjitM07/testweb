@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+    <div id="caption">C<span id="o">o</span>nn<span id="e">e</span>ct - <span id="four">4</span></div>
+    <div class="container">
+    <div id="scoreboard">
+        <h3 id="name">Scoreboard</h3>
+        <p><span id="red-score">Red 🔴: 0</span></p>
+        <p><span id="yellow-score">Yellow 🟡: 0</span></p>
+    </div>
+   
+
+    <button id="button" onclick="resetBoard()">Reset Board</button>
+    <h2 id="winner"></h2>
+    <div id="board"></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@media(max-width:376px){   
+#caption{
+    text-align: center;
+    font-size: 50px;
+}
+#board {
+    padding-left: 8px;
+    padding-top: 12px;
+    top: 15%;
+    position: absolute; 
+    height: 330px;
+    width: 330px;
+    right: 6%;
+    filter: drop-shadow(2px 2px 4px black);
+}
+.tile{
+    height: 32px;
+    width: 32px;
+    margin: 6px;
+}
+#scoreboard{
+    width: 150px;
+    top: 75%;
+    left:6%;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    filter: drop-shadow(2px 4px 4px black);
+
+}
+#name{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+    filter: drop-shadow(2px 4px 4px black);
+}
+button{
+    text-align: center;
+    top: 75%;
+    right: 6%;
+    width: 140px;
+    height: 100px;
+    position: absolute;
+    padding-left: 40px;
+    filter: drop-shadow(2px 2px 4px black);
+}
+}
