@@ -1,4 +1,4 @@
-@media(max-width:394px){   
+@media(max-width:401px){   
 #caption{
     text-align: center;
     font-size: 50px;
@@ -21,7 +21,7 @@
 #scoreboard{
     width: 150px;
     top: 75%;
-    left:8%;
+    left:10%;
     position: absolute;
     padding: 10px;
     font-size: 20px;
