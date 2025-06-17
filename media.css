@@ -19,8 +19,8 @@
     margin: 6px;
 }
 #scoreboard{
-    width: 180px;
-    top: 75%;
+    width: 170px;
+    top: 72%;
     left:10%;
     position: absolute;
     padding: 10px;
@@ -38,10 +38,10 @@ p{
 }
 button{
     text-align: center;
-    top: 75%;
+    top: 72%;
     right: 8%;
-    width: 140px;
-    height: 100px;
+    width: 130px;
+    height: 95px;
     position: absolute;
     padding-left: 40px;
     filter: drop-shadow(2px 2px 4px black);
