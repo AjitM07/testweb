@@ -1,60 +1,52 @@
-@media (max-width:400px){
+@media (max-width:394px){
     #caption{
         font-size: 70px;
     }
     #board{
-        position: absolute;
-        right: 6%;
-        top: 20%;
+        top: 18%;
+        left: -58%;
         width: 350px;
         height: 350px;
-        filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+        filter: drop-shadow(2px 2px 4px black);
     }
+    
     .tile{
         height: 35px;
         width: 35px;
     }
     #scoreboard{
+        position: absolute;
         top: 80%;
-        left: 7%;
-        padding: 10px;
+        left: 6%;
         width: 200px;
         filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
     }
     #name{
-        font-size: 25px;
+        font-size: 30px;
     }
     p{
         font-size: 20px;
     }
     #button{
         top: 80%;
+        right: 6%;
         width: 130px;
-        right: 7%;
-        height: 105px;
-        filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
-        padding-left: 30px;
+        height: 130px;
         font-size: 25px;
-    }
-    .popup-content {
-        width: 90%;
-        height: 350px;
-    }
-    #popmessage{
+        padding-left: 30px;
         filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
-        line-height: 30px;
+    }
+    .popup-content{
+        width: 90%;
     }
     #popbutton{
-        margin-left: 25%;
-        margin-top: 20px;
-        font-size: 20px;
-        transition:none;
+        margin-left: 27%;
+        margin-top: 10px;
     }
 }
 
 
-
-@media screen and (max-width:420px){
+/* @media screen and (max-width:420px){
     #caption{
         font-size: 70px;
     }
@@ -108,10 +100,10 @@
         font-size: 30px;
         transition:none;
     }
-}
+} */
 
 
-@media screen and (max-width:376px){
+/* @media(max-width:376px){
     #caption{
         font-size: 60px;
     }
@@ -165,4 +157,4 @@
         font-size: 20px;
         transition:none;
     }
-}
+} */
