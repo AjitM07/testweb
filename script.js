@@ -12,7 +12,9 @@ const columns = 7;
 let redScore = 0;
 let yellowScore = 0;
 
+
 window.onload = function(){
+    document.getElementById("popup").style.display="flex";
     setGame();  
 }
 
@@ -197,4 +199,10 @@ function launchConfetti() {
 function resetBoard(){
     gameOver = false;
     setGame();
+}
+
+
+
+function closePopup(){
+    document.getElementById("popup").style.display="none";
 }
